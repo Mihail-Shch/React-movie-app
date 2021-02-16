@@ -1,0 +1,77 @@
+.movieInfoImg-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.movieTitle {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.movieSectionsTitle {
+    font-size: 25px;
+    color: #5a606b;
+}
+
+.movieGenres {
+    margin-top: 15px;
+}
+
+.movieGenre-item {
+    margin-right: 10px;
+}
+
+.movie_overview {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.movie_overview p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.movie_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie_info-item {
+    text-align: center;
+}
+
+.movie_info-itemText {
+    margin-top: 4px;
+    font-size: 17px;
+}
+
+.movie_cast {
+    margin-top: 10px;
+}
+
+.movieActor-wrapper {
+    max-width: 200px;
+    margin-top: 15px;
+}
+
+.movieActor-wrapper p {
+    margin-bottom: 0;
+}
+
+.movieActor-photo {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.movieActor-name {
+    font-size: 20px;
+    margin-bottom: 5px !important;
+}
+
+.movieActor-character {
+    color: rgb(90, 96, 107);
+    font-size: 17px;
+}

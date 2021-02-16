@@ -1,0 +1,6 @@
+.topRated_list-wrapper {
+    margin: 0 -5px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}

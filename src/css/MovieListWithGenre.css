@@ -1,0 +1,24 @@
+img {
+    max-width: 100%;
+}
+
+.movie_list-withGenre {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -5px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.movie_list-item {
+    max-width: 266px;
+    margin: 0 5px;
+}
+
+.movie_list-photo {
+    margin-bottom: 10px;
+    height: 399px;
+    width: 266px;
+}
+
+

@@ -1,0 +1,38 @@
+.movieCarousel {
+    position: relative;
+}
+
+.movieCarousel__title {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+
+.carousel.carousel-slider .control-arrow {
+    padding: 20px;
+}
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 12px solid #fff;
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 12px solid #fff;
+}
+
+.black {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
